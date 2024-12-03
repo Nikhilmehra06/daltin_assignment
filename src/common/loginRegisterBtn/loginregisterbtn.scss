@@ -1,0 +1,86 @@
+.btn_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .btn {
+    background: linear-gradient(93.35deg, #EB9757 0.63%, #EB57E3 103.13%);
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 12px 30px;
+    width: 551px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+  
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+  
+    &:focus {
+      outline: none;
+    }
+  }
+  
+  .already_account {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 15px;
+  
+    .login_link {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: 600;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .line {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .or {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    width: 511px;
+    gap: 10px;
+  }
+  
+  .google-button,
+  .apple-button {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .google-button img,
+  .apple-button img {
+    width: 40px;
+    height: 40px;
+  }
